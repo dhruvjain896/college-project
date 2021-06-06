@@ -1,0 +1,184 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: #ececec;
+  font-family: "Lato", sans-serif;
+}
+
+.heading-text {
+  padding: 0;
+}
+
+h1 {
+  font-size: 5em;
+}
+
+.Search input[type="text"] {
+  float: right;
+  padding: 6px;
+  margin-top: 30px;
+  margin-right: 16px;
+  border: none;
+  font-size: 23px;
+}
+
+.fa-search {
+  color: black;
+  margin: 35px 0px;
+  font-size: 30px;
+  height: 38.4px;
+  width: 38.4px;
+}
+
+.fa-user {
+  color: black;
+  margin: 35px 0px;
+  font-size: 30px;
+  height: 38.4px;
+  width: 38.4px;
+}
+
+.heading {
+  content: 50px 50px 50px 50px;
+  margin: 0;
+  display: grid;
+  grid-template-columns: 250px auto auto 60px auto;
+  grid-template-areas: "logo heading-text Search fa-search fa-user";
+}
+
+.topnav {
+  overflow: hidden;
+}
+
+.topnav a {
+  float: left;
+  display: block;
+  color: black;
+  text-align: center;
+  margin: 0px 40px;
+  margin-bottom: 20px;
+  padding: 14px 49px;
+  text-decoration: none;
+  font-size: 20px;
+  font-family: "Dosis", sans-serif;
+  border-radius: 50px;
+}
+
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+.topnav a.active {
+  /* background-color: #0396FF; */
+  background-color: #2fdcff;
+  color: white;
+}
+
+/* Middle part of video page starts */
+.VideoGrid {
+  display: grid;
+  content: auto auto;
+  grid-template-columns: 325px auto;
+  grid-template-areas: "sidenav main";
+  margin-bottom: 50px;
+  
+}
+
+/* Side Nav */
+/* Fixed sidenav, full height */
+.sidenav {
+  margin-top: 10px;
+  margin-left: 15px;
+  /* max-height: 100%;
+  height: 450px; */
+  width: 300px;
+  /* position: fixed; */
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: #a9a9a9;
+  overflow-x: hidden;
+  padding-top: 20px;
+}
+/* Style the sidenav links and the dropdown button */
+
+.dropdown-btn {
+  padding: 6px 8px 6px 16px;
+  text-decoration: none;
+  font-size: 20px;
+  color: black;
+  display: block;
+  border: none;
+  background: none;
+  width: 100%;
+  text-align: left;
+  cursor: pointer;
+  outline: none;
+  margin-top: 25px;
+  margin-bottom: 0px;
+}
+
+.sidenav span {
+  padding: 6px 8px 6px 16px;
+  text-decoration: none;
+  font-size: 19px;
+  color: black;
+  display: block;
+  border: none;
+  background: none;
+  width: 100%;
+  text-align: left;
+  cursor: pointer;
+  outline: none;
+  margin-bottom: 5px;
+}
+
+/* On mouse-over */
+.sidenav span:hover,
+.dropdown-btn:hover {
+  color: #f1f1f1;
+}
+
+/* Main content */
+.main {
+  margin-right: 20px;
+  margin-left: 50px;
+  font-size: 25px; /* Increased text to enable scrolling */
+  margin-top: 10px;
+}
+
+/* Add an active class to the active dropdown button */
+.active {
+  background-color: #969696;
+  color: white;
+}
+
+/* Dropdown container (hidden by default). Optional: add a lighter background color and some left padding to change the design of the dropdown content */
+.dropdown-container {
+  display: none;
+  background-color: #bbb;
+  padding-left: 8px;
+}
+
+/* Optional: Style the caret down icon */
+.fa-caret-up {
+  float: right;
+  padding-right: 8px;
+}
+.fa-caret-down {
+  float: right;
+  padding-right: 8px;
+}
+
+/* videos */
+.youtubeVideos iframe {
+  margin: 20px 50px 10px 0px;
+}
+
+.hidden {
+  display: none;
+}

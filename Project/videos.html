@@ -1,0 +1,1787 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Intellí Learning</title>
+    <script
+      src="https://kit.fontawesome.com/2d68dbaac4.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="stylesheet" href="videos.css" />
+  </head>
+  <body>
+    <div class="heading">
+      <img
+        class="logo"
+        src="./Images/Logo2.png"
+        alt="Logo of Intelli Learning"
+        height="100px"
+      />
+      <div class="heading-text"><h1>Intellí Learning</h1></div>
+      <div class="Search">
+        <input id="search" type="text" placeholder="Search.." />
+      </div>
+      <div class="fas fa-search fa"></div>
+      <div class="far fa-user"></div>
+    </div>
+
+    <div class="topnav">
+      <a id="#topics" href="index.html">Topics</a>
+      <a href="index.html">Home</a>
+      <a class="active" href="videos.html">Videos</a>
+      <a href="tutors.html">Tutors</a>
+      <a href="tests.html">Test Yourself</a>
+      <a href="about.html">About Us</a>
+    </div>
+
+    <!-- Video Grid -->
+    <div class="VideoGrid">
+      <!-- Side Nav -->
+      <div class="sidenav">
+        <button class="WebDev dropdown-btn" style="margin-top: 0px;">
+          Web Developement<i class="fa fa-caret-down"></i>
+        </button>
+        <div class="dropdown-container" id="btn1">
+          <span id="h1">HTML</span>
+          <span id="h2">CSS</span>
+          <span id="h3">JavaScript</span>
+          <span id="h4">Node.js</span>
+          <span id="h5">Django</span>
+          <span id="h6">MERN</span>
+          <span id="h7">Flask</span>
+        </div>
+        <button class="MobileDev dropdown-btn">
+          Mobile App Developement<i class="fa fa-caret-down"></i>
+        </button>
+        <div class="dropdown-container" id="btn2">
+          <span id="h8">Flutter</span>
+          <span id="h9">Java</span>
+          <span id="h10">Kotlin</span>
+          <span id="h11">Swift</span>
+          <span id="h12">Android Studio</span>
+        </div>
+        <button class="ComptCode dropdown-btn">
+          Competitive Coding<i class="fa fa-caret-down"></i>
+        </button>
+        <div class="dropdown-container" id="btn3">
+          <span id="h13">C++</span>
+          <span id="h14">Algorithms</span>
+          <span id="h15">Hashing</span>
+          <span id="h16">Greedy Technique</span>
+          <span id="h17">Dynamic Programming</span>
+        </div>
+        <button class="DataStruct dropdown-btn">
+          Data Structures<i class="fa fa-caret-down"></i>
+        </button>
+        <div class="dropdown-container" id="btn4">
+          <span id="h18">Arrays</span>
+          <span id="h19">Linked List</span>
+          <span id="h20">Trees</span>
+          <span id="h21">Trie</span>
+        </div>
+        <button class="GameDev dropdown-btn">
+          Game Developement<i class="fa fa-caret-down"></i>
+        </button>
+        <div class="dropdown-container" id="btn5">
+          <span id="h22">C#</span>
+          <span id="h23">Unreal Engine</span>
+          <span id="h24">Unity</span>
+          <span id="h25">Pygame</span>
+        </div>
+        <button class="FrontDev dropdown-btn">
+          Frontend Developement<i class="fa fa-caret-down"></i>
+        </button>
+        <div class="dropdown-container" id="btn6">
+          <span id="h26">HTML5</span>
+          <span id="h27">CSS3</span>
+          <span id="h28">JavaScript (ES6+)</span>
+          <span id="h29">Bootstrap</span>
+          <span id="h30">jQuery</span>
+          <span id="h31">SASS</span>
+          <span id="h32">React</span>
+        </div>
+        <button class="CyberSec dropdown-btn">
+          Cyber Security<i class="fa fa-caret-down"></i>
+        </button>
+        <div class="dropdown-container" id="btn7">
+          <span id="h33">Penetration Testing</span>
+          <span id="h34">Kali Linux</span>
+          <span id="h35">Computer Networking</span>
+          <span id="h36">SQL Injection</span>
+        </div>
+        <button class="dbms dropdown-btn">
+          DBMS<i class="fa fa-caret-down"></i>
+        </button>
+        <div class="dropdown-container" id="btn8">
+          <span id="h37">SQL</span>
+          <span id="h38">DataBase Systems</span>
+          <span id="h39">MySQL</span>
+          <span id="h40">Postgre SQL</span>
+          <span id="h41">NoSQL</span>
+        </div>
+        <button class="DS dropdown-btn">
+          Data Science<i class="fa fa-caret-down"></i>
+        </button>
+        <div class="dropdown-container" id="btn9">
+          <span id="h42">Statistics</span>
+          <span id="h43">Python</span>
+          <span id="h44">NumPy</span>
+          <span id="h45">Pandas</span>
+          <span id="h46">Data Visualization</span>
+        </div>
+        <button class="ML dropdown-btn">
+          Machine Learning<i class="fa fa-caret-down"></i>
+        </button>
+        <div class="dropdown-container" id="btn10">
+          <span id="h47">Scikit-learn</span>
+          <span id="h48">Tensor Flow</span>
+          <span id="h49">XGBoost</span>
+          <span id="h50">Keras</span>
+          <span id="h51">PySpark</span>
+        </div>
+      </div>
+
+      <div class="main" id="video0">
+        <div class="subtopicVideo">
+          <p id="topics">Programming Languages</p>
+        </div>
+        <div class="youtubeVideos">
+          <iframe
+            width="320"
+            height="170"
+            src="https://www.youtube.com/embed/zOjov-2OZ0E"
+            title="YouTube video player"
+            frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+            allowfullscreen
+          ></iframe>
+          <iframe
+            width="320"
+            height="170"
+            src="https://www.youtube.com/embed/KJgsSFOSQv0"
+            title="YouTube video player"
+            frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+            allowfullscreen
+          ></iframe>
+          <iframe
+            width="320"
+            height="170"
+            src="https://www.youtube.com/embed/vLnPwxZdW4Y"
+            title="YouTube video player"
+            frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+            allowfullscreen
+          ></iframe>
+          <iframe
+            width="320"
+            height="170"
+            src="https://www.youtube.com/embed/rfscVS0vtbw"
+            title="YouTube video player"
+            frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+            allowfullscreen
+          ></iframe>
+          <iframe
+            width="320"
+            height="170"
+            src="https://www.youtube.com/embed/grEKMHGYyns"
+            title="YouTube video player"
+            frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+            allowfullscreen
+          ></iframe>
+          <iframe
+            width="320"
+            height="170"
+            src="https://www.youtube.com/embed/PkZNo7MFNFg"
+            title="YouTube video player"
+            frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+            allowfullscreen
+          ></iframe>
+          <iframe
+            width="320"
+            height="170"
+            src="https://www.youtube.com/embed/pTJJsmejUOQ"
+            title="YouTube video player"
+            frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+            allowfullscreen
+          ></iframe>
+          <iframe
+            width="320"
+            height="170"
+            src="https://www.youtube.com/embed/F9UC9DY-vIU"
+            title="YouTube video player"
+            frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+            allowfullscreen
+          ></iframe>
+          <iframe
+            width="320"
+            height="170"
+            src="https://www.youtube.com/embed/comQ1-x2a1Q"
+            title="YouTube video player"
+            frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+            allowfullscreen
+          ></iframe>
+        </div>
+      </div>
+
+      <!-- Web dev -->
+      <div class="main hidden" id="video1">
+        <div class="subtopicVideo">
+          <div id="html">
+            <p>HTML</p>
+            <iframe
+              width="320"
+              height="170"
+              src="https://www.youtube.com/embed/pQN-pnXPaVg"
+              title="YouTube video player"
+              frameborder="0"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+              allowfullscreen
+              style="margin: 15px 0px 25px 0px"
+            ></iframe>
+          </div>
+
+          <div class="hidden" id="css">
+            <p>CSS</p>
+            <iframe
+              width="320"
+              height="170"
+              src="https://www.youtube.com/embed/1Rs2ND1ryYc"
+              title="YouTube video player"
+              frameborder="0"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+              allowfullscreen
+              style="margin: 15px 0px 25px 0px"
+            ></iframe>
+          </div>
+
+          <div class="hidden" id="javascript">
+            <p>JavaScript</p>
+            <iframe
+              width="320"
+              height="170"
+              src="https://www.youtube.com/embed/PkZNo7MFNFg"
+              title="YouTube video player"
+              frameborder="0"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+              allowfullscreen
+              style="margin: 15px 0px 25px 0px"
+            ></iframe>
+          </div>
+
+          <div class="hidden" id="nodejs">
+            <p>Node.js</p>
+            <iframe
+              width="320"
+              height="170"
+              src="https://www.youtube.com/embed/RLtyhwFtXQA"
+              title="YouTube video player"
+              frameborder="0"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+              allowfullscreen
+              style="margin: 15px 0px 25px 0px"
+            ></iframe>
+          </div>
+
+          <div class="hidden" id="django">
+            <p>Django</p>
+            <iframe
+              width="320"
+              height="170"
+              src="https://www.youtube.com/embed/F5mRW0jo-U4"
+              title="YouTube video player"
+              frameborder="0"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+              allowfullscreen
+              style="margin: 15px 0px 25px 0px"
+            ></iframe>
+          </div>
+
+          <div class="hidden" id="mern">
+            <p>MERN</p>
+            <iframe
+              width="320"
+              height="170"
+              src="https://www.youtube.com/embed/7CqJlxBYj-M"
+              title="YouTube video player"
+              frameborder="0"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+              allowfullscreen
+              style="margin: 15px 0px 25px 0px"
+            ></iframe>
+          </div>
+
+          <div class="hidden" id="flask">
+            <p>Flask</p>
+            <iframe
+              width="320"
+              height="170"
+              src="https://www.youtube.com/embed/Qr4QMBUPxWo"
+              title="YouTube video player"
+              frameborder="0"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+              allowfullscreen
+              style="margin: 15px 0px 25px 0px"
+            ></iframe>
+          </div>
+        </div>
+        <div class="youtubeVideos">
+          <p>Web Developement</p>
+          <iframe
+            width="320"
+            height="170"
+            src="https://www.youtube.com/embed/pQN-pnXPaVg"
+            title="YouTube video player"
+            frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+            allowfullscreen
+          ></iframe>
+          <iframe
+            width="320"
+            height="170"
+            src="https://www.youtube.com/embed/1Rs2ND1ryYc"
+            title="YouTube video player"
+            frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+            allowfullscreen
+          ></iframe>
+          <iframe
+            width="320"
+            height="170"
+            src="https://www.youtube.com/embed/PkZNo7MFNFg"
+            title="YouTube video player"
+            frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+            allowfullscreen
+          ></iframe>
+
+          <iframe
+            width="320"
+            height="170"
+            src="https://www.youtube.com/embed/RLtyhwFtXQA"
+            title="YouTube video player"
+            frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+            allowfullscreen
+          ></iframe>
+
+          <iframe
+            width="320"
+            height="170"
+            src="https://www.youtube.com/embed/F5mRW0jo-U4"
+            title="YouTube video player"
+            frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+            allowfullscreen
+          ></iframe>
+
+          <iframe
+            width="320"
+            height="170"
+            src="https://www.youtube.com/embed/7CqJlxBYj-M"
+            title="YouTube video player"
+            frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+            allowfullscreen
+          ></iframe>
+
+          <iframe
+            width="320"
+            height="170"
+            src="https://www.youtube.com/embed/Qr4QMBUPxWo"
+            title="YouTube video player"
+            frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+            allowfullscreen
+          ></iframe>
+        </div>
+      </div>
+
+      <!-- Mobile dev -->
+      <div class="main hidden" id="video2">
+        <div class="subtopicVideo">
+          <div id="flutter">
+            <p>Flutter</p>
+            <iframe
+              width="320"
+              height="170"
+              src="https://www.youtube.com/embed/pTJJsmejUOQ"
+              title="YouTube video player"
+              frameborder="0"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+              allowfullscreen
+              style="margin: 15px 0px 25px 0px"
+            ></iframe>
+          </div>
+
+          <div class="hidden" id="java">
+            <p>Java</p>
+            <iframe
+              width="320"
+              height="170"
+              src="https://www.youtube.com/embed/grEKMHGYyns"
+              title="YouTube video player"
+              frameborder="0"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+              allowfullscreen
+              style="margin: 15px 0px 25px 0px"
+            ></iframe>
+          </div>
+
+          <div class="hidden" id="Kotlin">
+            <p>Kotlin</p>
+            <iframe
+              width="320"
+              height="170"
+              src="https://www.youtube.com/embed/F9UC9DY-vIU"
+              title="YouTube video player"
+              frameborder="0"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+              allowfullscreen
+              style="margin: 15px 0px 25px 0px"
+            ></iframe>
+          </div>
+
+          <div class="hidden" id="swift">
+            <p>Swift</p>
+            <iframe
+              width="320"
+              height="170"
+              src="https://www.youtube.com/embed/comQ1-x2a1Q"
+              title="YouTube video player"
+              frameborder="0"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+              allowfullscreen
+              style="margin: 15px 0px 25px 0px"
+            ></iframe>
+          </div>
+
+          <div class="hidden" id="androidStudio">
+            <p>Android Studio</p>
+            <iframe
+              width="320"
+              height="170"
+              src="https://www.youtube.com/embed/fis26HvvDII"
+              title="YouTube video player"
+              frameborder="0"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+              allowfullscreen
+              style="margin: 15px 0px 25px 0px"
+            ></iframe>
+          </div>
+        </div>
+        <div class="youtubeVideos">
+          <p>Mobile App Developement</p>
+          <iframe
+            width="320"
+            height="170"
+            src="https://www.youtube.com/embed/pTJJsmejUOQ"
+            title="YouTube video player"
+            frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+            allowfullscreen
+          ></iframe>
+          <iframe
+            width="320"
+            height="170"
+            src="https://www.youtube.com/embed/P2IGQT3BZQo"
+            title="YouTube video player"
+            frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+            allowfullscreen
+          ></iframe>
+          <iframe
+            width="320"
+            height="170"
+            src="https://www.youtube.com/embed/aiTTClKJbnw"
+            title="YouTube video player"
+            frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+            allowfullscreen
+          ></iframe>
+
+          <iframe
+            width="320"
+            height="170"
+            src="https://www.youtube.com/embed/fi2WkznwWbc"
+            title="YouTube video player"
+            frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+            allowfullscreen
+          ></iframe>
+
+          <iframe
+            width="320"
+            height="170"
+            src="https://www.youtube.com/embed/grEKMHGYyns"
+            title="YouTube video player"
+            frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+            allowfullscreen
+          ></iframe>
+
+          <iframe
+            width="320"
+            height="170"
+            src="https://www.youtube.com/embed/F9UC9DY-vIU"
+            title="YouTube video player"
+            frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+            allowfullscreen
+          ></iframe>
+
+          <iframe
+            width="320"
+            height="170"
+            src="https://www.youtube.com/embed/fis26HvvDII"
+            title="YouTube video player"
+            frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+            allowfullscreen
+          ></iframe>
+
+          <iframe
+            width="320"
+            height="170"
+            src="https://www.youtube.com/embed/comQ1-x2a1Q"
+            title="YouTube video player"
+            frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+            allowfullscreen
+          ></iframe>
+        </div>
+      </div>
+
+      <!-- Competitive Coding -->
+      <div class="main hidden" id="video3">
+        <div class="subtopicVideo">
+          <div id="cpp">
+            <p>C++</p>
+            <iframe
+              width="320"
+              height="170"
+              src="https://www.youtube.com/embed/vLnPwxZdW4Y"
+              title="YouTube video player"
+              frameborder="0"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+              allowfullscreen
+              style="margin: 15px 0px 25px 0px"
+            ></iframe>
+          </div>
+
+          <div class="hidden" id="algorithms">
+            <p>Algorithms</p>
+            <iframe
+              width="320"
+              height="170"
+              src="https://www.youtube.com/embed/videoseries?list=PLDN4rrl48XKpZkf03iYFl-O29szjTrs_O"
+              title="YouTube video player"
+              frameborder="0"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+              allowfullscreen
+              style="margin: 15px 0px 25px 0px"
+            ></iframe>
+          </div>
+
+          <div class="hidden" id="hashing">
+            <p>Hashing</p>
+            <iframe
+              width="320"
+              height="170"
+              src="https://www.youtube.com/embed/videoseries?list=PLqM7alHXFySGwXaessYMemAnITqlZdZVE"
+              title="YouTube video player"
+              frameborder="0"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+              allowfullscreen
+              style="margin: 15px 0px 25px 0px"
+            ></iframe>
+          </div>
+
+          <div class="hidden" id="greedy">
+            <p>Greedy Technique</p>
+            <iframe
+              width="320"
+              height="170"
+              src="https://www.youtube.com/embed/videoseries?list=PLqM7alHXFySESatj68JKWHRVhoJ1BxtLW"
+              title="YouTube video player"
+              frameborder="0"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+              allowfullscreen
+              style="margin: 15px 0px 25px 0px"
+            ></iframe>
+          </div>
+
+          <div class="hidden" id="dynamicProgramming">
+            <p>Dynamic Programming</p>
+            <iframe
+              width="320"
+              height="170"
+              src="https://www.youtube.com/embed/oBt53YbR9Kk"
+              title="YouTube video player"
+              frameborder="0"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+              allowfullscreen
+              style="margin: 15px 0px 25px 0px"
+            ></iframe>
+          </div>
+        </div>
+        <div class="youtubeVideos">
+          <p>Competitive Coding</p>
+          <iframe
+            width="320"
+            height="170"
+            src="https://www.youtube.com/embed/vLnPwxZdW4Y"
+            title="YouTube video player"
+            frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+            allowfullscreen
+          ></iframe>
+          <iframe
+            width="320"
+            height="170"
+            src="https://www.youtube.com/embed/wN0x9eZLix4"
+            title="YouTube video player"
+            frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+            allowfullscreen
+          ></iframe>
+          <iframe
+            width="320"
+            height="170"
+            src="https://www.youtube.com/embed/B31LgI4Y4DQ"
+            title="YouTube video player"
+            frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+            allowfullscreen
+          ></iframe>
+
+          <iframe
+            width="320"
+            height="170"
+            src="https://www.youtube.com/embed/zuegQmMdy8M"
+            title="YouTube video player"
+            frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+            allowfullscreen
+          ></iframe>
+
+          <iframe
+            width="320"
+            height="170"
+            src="https://www.youtube.com/embed/videoseries?list=PLDN4rrl48XKpZkf03iYFl-O29szjTrs_O"
+            title="YouTube video player"
+            frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+            allowfullscreen
+          ></iframe>
+
+          <iframe
+            width="320"
+            height="170"
+            src="https://www.youtube.com/embed/videoseries?list=PLqM7alHXFySGwXaessYMemAnITqlZdZVE"
+            title="YouTube video player"
+            frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+            allowfullscreen
+          ></iframe>
+
+          <iframe
+            width="320"
+            height="170"
+            src="https://www.youtube.com/embed/videoseries?list=PLqM7alHXFySESatj68JKWHRVhoJ1BxtLW"
+            title="YouTube video player"
+            frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+            allowfullscreen
+          ></iframe>
+
+          <iframe
+            width="320"
+            height="170"
+            src="https://www.youtube.com/embed/oBt53YbR9Kk"
+            title="YouTube video player"
+            frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+            allowfullscreen
+          ></iframe>
+        </div>
+      </div>
+
+      <!-- Data Structures  -->
+      <div class="main hidden" id="video4">
+        <div class="subtopicVideo">
+          <div id="array">
+            <p>Arrays</p>
+            <iframe
+              width="320"
+              height="170"
+              src="https://www.youtube.com/embed/Xx1tWbb37hY"
+              title="YouTube video player"
+              frameborder="0"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+              allowfullscreen
+              style="margin: 15px 0px 25px 0px"
+            ></iframe>
+          </div>
+
+          <div class="hidden" id="linkedList">
+            <p>Linked List</p>
+            <iframe
+              width="320"
+              height="170"
+              src="https://www.youtube.com/embed/R9PTBwOzceo"
+              title="YouTube video player"
+              frameborder="0"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+              allowfullscreen
+              style="margin: 15px 0px 25px 0px"
+            ></iframe>
+          </div>
+
+          <div class="hidden" id="trees">
+            <p>Trees</p>
+            <iframe
+              width="320"
+              height="170"
+              src="https://www.youtube.com/embed/1-l_UOFi1Xw"
+              title="YouTube video player"
+              frameborder="0"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+              allowfullscreen
+              style="margin: 15px 0px 25px 0px"
+            ></iframe>
+          </div>
+
+          <div class="hidden" id="tries">
+            <p>Trie</p>
+            <iframe
+              width="320"
+              height="170"
+              src="https://www.youtube.com/embed/zIjfhVPRZCg"
+              title="YouTube video player"
+              frameborder="0"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+              allowfullscreen
+              style="margin: 15px 0px 25px 0px"
+            ></iframe>
+          </div>
+        </div>
+        <div class="youtubeVideos">
+          <p>Data Stuctures</p>
+          <iframe
+            width="320"
+            height="170"
+            src="https://www.youtube.com/embed/Xx1tWbb37hY"
+            title="YouTube video player"
+            frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+            allowfullscreen
+          ></iframe>
+          <iframe
+            width="320"
+            height="170"
+            src="https://www.youtube.com/embed/R9PTBwOzceo"
+            title="YouTube video player"
+            frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+            allowfullscreen
+          ></iframe>
+          <iframe
+            width="320"
+            height="170"
+            src="https://www.youtube.com/embed/1-l_UOFi1Xw"
+            title="YouTube video player"
+            frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+            allowfullscreen
+          ></iframe>
+
+          <iframe
+            width="320"
+            height="170"
+            src="https://www.youtube.com/embed/zIjfhVPRZCg"
+            title="YouTube video player"
+            frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+            allowfullscreen
+          ></iframe>
+
+          <iframe
+            width="320"
+            height="170"
+            src="https://www.youtube.com/embed/gnYM_G1ILm0"
+            title="YouTube video player"
+            frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+            allowfullscreen
+          ></iframe>
+
+          <iframe
+            width="320"
+            height="170"
+            src="https://www.youtube.com/embed/BrVZZZkkGGI"
+            title="YouTube video player"
+            frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+            allowfullscreen
+          ></iframe>
+
+          <iframe
+            width="320"
+            height="170"
+            src="https://www.youtube.com/embed/bCtmP8pSBF4"
+            title="YouTube video player"
+            frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+            allowfullscreen
+          ></iframe>
+
+          <iframe
+            width="320"
+            height="170"
+            src="https://www.youtube.com/embed/TOb1tuEZ2X4"
+            title="YouTube video player"
+            frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+            allowfullscreen
+          ></iframe>
+        </div>
+      </div>
+
+      <!-- Game Developement  -->
+      <!-- C# unreal unity pygame -->
+      <div class="main hidden" id="video5">
+        <div class="subtopicVideo">
+          <div id="chash">
+            <p>C#</p>
+            <iframe
+              width="320"
+              height="170"
+              src="https://www.youtube.com/embed/GhQdlIFylQ8"
+              title="YouTube video player"
+              frameborder="0"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+              allowfullscreen
+              style="margin: 15px 0px 25px 0px"
+            ></iframe>
+          </div>
+
+          <div class="hidden" id="unreal">
+            <p>Unreal Engine</p>
+            <iframe
+              width="320"
+              height="170"
+              src="https://www.youtube.com/embed/LsNW4FPHuZE"
+              title="YouTube video player"
+              frameborder="0"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+              allowfullscreen
+              style="margin: 15px 0px 25px 0px"
+            ></iframe>
+          </div>
+
+          <div class="hidden" id="unity">
+            <p>Unity</p>
+            <iframe
+              width="320"
+              height="170"
+              src="https://www.youtube.com/embed/gB1F9G0JXOo"
+              title="YouTube video player"
+              frameborder="0"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+              allowfullscreen
+              style="margin: 15px 0px 25px 0px"
+            ></iframe>
+          </div>
+
+          <div class="hidden" id="pygame">
+            <p>Pygame</p>
+            <iframe
+              width="320"
+              height="170"
+              src="https://www.youtube.com/embed/FfWpgLFMI7w"
+              title="YouTube video player"
+              frameborder="0"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+              allowfullscreen
+              style="margin: 15px 0px 25px 0px"
+            ></iframe>
+          </div>
+        </div>
+        <div class="youtubeVideos">
+          <p>Game Developement</p>
+          <iframe
+            width="320"
+            height="170"
+            src="https://www.youtube.com/embed/GhQdlIFylQ8"
+            title="YouTube video player"
+            frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+            allowfullscreen
+          ></iframe>
+          <iframe
+            width="320"
+            height="170"
+            src="https://www.youtube.com/embed/LsNW4FPHuZE"
+            title="YouTube video player"
+            frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+            allowfullscreen
+          ></iframe>
+          <iframe
+            width="320"
+            height="170"
+            src="https://www.youtube.com/embed/gB1F9G0JXOo"
+            title="YouTube video player"
+            frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+            allowfullscreen
+          ></iframe>
+
+          <iframe
+            width="320"
+            height="170"
+            src="https://www.youtube.com/embed/FfWpgLFMI7w"
+            title="YouTube video player"
+            frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+            allowfullscreen
+          ></iframe>
+
+          <iframe
+            width="320"
+            height="170"
+            src="https://www.youtube.com/embed/3EMxBkqC4z0"
+            title="YouTube video player"
+            frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+            allowfullscreen
+          ></iframe>
+
+          <iframe
+            width="320"
+            height="170"
+            src="https://www.youtube.com/embed/McoDjOCb2Zo"
+            title="YouTube video player"
+            frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+            allowfullscreen
+          ></iframe>
+
+          <iframe
+            width="320"
+            height="170"
+            src="https://www.youtube.com/embed/gx_qorHxBpI"
+            title="YouTube video player"
+            frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+            allowfullscreen
+          ></iframe>
+
+          <iframe
+            width="320"
+            height="170"
+            src="https://www.youtube.com/embed/rBHusPevM5k"
+            title="YouTube video player"
+            frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+            allowfullscreen
+          ></iframe>
+        </div>
+      </div>
+
+      <!-- Frontend Developement -->
+      <div class="main hidden" id="video6">
+        <div class="subtopicVideo">
+          <div id="html1">
+            <p>HTML</p>
+            <iframe
+              width="320"
+              height="170"
+              src="https://www.youtube.com/embed/pQN-pnXPaVg"
+              title="YouTube video player"
+              frameborder="0"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+              allowfullscreen
+              style="margin: 15px 0px 25px 0px"
+            ></iframe>
+          </div>
+
+          <div class="hidden" id="css1">
+            <p>CSS</p>
+            <iframe
+              width="320"
+              height="170"
+              src="https://www.youtube.com/embed/1Rs2ND1ryYc"
+              title="YouTube video player"
+              frameborder="0"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+              allowfullscreen
+              style="margin: 15px 0px 25px 0px"
+            ></iframe>
+          </div>
+
+          <div class="hidden" id="javascript1">
+            <p>JavaScript</p>
+            <iframe
+              width="320"
+              height="170"
+              src="https://www.youtube.com/embed/PkZNo7MFNFg"
+              title="YouTube video player"
+              frameborder="0"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+              allowfullscreen
+              style="margin: 15px 0px 25px 0px"
+            ></iframe>
+          </div>
+
+          <div class="hidden" id="bootstrap">
+            <p>Bootstrap</p>
+            <iframe
+              width="320"
+              height="170"
+              src="https://www.youtube.com/embed/RyTRgQ7k6QE"
+              title="YouTube video player"
+              frameborder="0"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+              allowfullscreen
+              style="margin: 15px 0px 25px 0px"
+            ></iframe>
+          </div>
+
+          <div class="hidden" id="jquery">
+            <p>jQuery</p>
+            <iframe
+              width="320"
+              height="170"
+              src="https://www.youtube.com/embed/videoseries?list=PLWKjhJtqVAbkyK9woUZUtunToLtNGoQHB"
+              title="YouTube video player"
+              frameborder="0"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+              allowfullscreen
+              style="margin: 15px 0px 25px 0px"
+            ></iframe>
+          </div>
+
+          <div class="hidden" id="sass">
+            <p>SASS</p>
+            <iframe
+              width="320"
+              height="170"
+              src="https://www.youtube.com/embed/_a5j7KoflTs"
+              title="YouTube video player"
+              frameborder="0"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+              allowfullscreen
+              style="margin: 15px 0px 25px 0px"
+            ></iframe>
+          </div>
+
+          <div class="hidden" id="react">
+            <p>React</p>
+            <iframe
+              width="320"
+              height="170"
+              src="https://www.youtube.com/embed/DLX62G4lc44"
+              title="YouTube video player"
+              frameborder="0"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+              allowfullscreen
+              style="margin: 15px 0px 25px 0px"
+            ></iframe>
+          </div>
+        </div>
+        <div class="youtubeVideos">
+          <p>Frontend Developement</p>
+          <iframe
+            width="320"
+            height="170"
+            src="https://www.youtube.com/embed/pQN-pnXPaVg"
+            title="YouTube video player"
+            frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+            allowfullscreen
+          ></iframe>
+          <iframe
+            width="320"
+            height="170"
+            src="https://www.youtube.com/embed/1Rs2ND1ryYc"
+            title="YouTube video player"
+            frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+            allowfullscreen
+          ></iframe>
+          <iframe
+            width="320"
+            height="170"
+            src="https://www.youtube.com/embed/PkZNo7MFNFg"
+            title="YouTube video player"
+            frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+            allowfullscreen
+          ></iframe>
+
+          <iframe
+            width="320"
+            height="170"
+            src="https://www.youtube.com/embed/RyTRgQ7k6QE"
+            title="YouTube video player"
+            frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+            allowfullscreen
+          ></iframe>
+
+          <iframe
+            width="320"
+            height="170"
+            src="https://www.youtube.com/embed/videoseries?list=PLWKjhJtqVAbkyK9woUZUtunToLtNGoQHB"
+            title="YouTube video player"
+            frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+            allowfullscreen
+          ></iframe>
+          <iframe
+            width="320"
+            height="170"
+            src="https://www.youtube.com/embed/_a5j7KoflTs"
+            title="YouTube video player"
+            frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+            allowfullscreen
+          ></iframe>
+          <iframe
+            width="320"
+            height="170"
+            src="https://www.youtube.com/embed/DLX62G4lc44"
+            title="YouTube video player"
+            frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+            allowfullscreen
+          ></iframe>
+          <iframe
+            width="320"
+            height="170"
+            src="https://www.youtube.com/embed/aoQ6S1a32j8"
+            title="YouTube video player"
+            frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+            allowfullscreen
+          ></iframe>
+        </div>
+      </div>
+
+      <!-- Cyber Security -->
+      <!-- Penetration Testing, Kali Linux, computer networking, SQL Injection -->
+      <div class="main hidden" id="video7">
+        <div class="subtopicVideo">
+          <div id="penetrationTesting">
+            <p>Penetration Testing</p>
+            <iframe
+              width="320"
+              height="170"
+              src="https://www.youtube.com/embed/3Kq1MIfTWCE"
+              title="YouTube video player"
+              frameborder="0"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+              allowfullscreen
+              style="margin: 15px 0px 25px 0px"
+            ></iframe>
+          </div>
+
+          <div class="hidden" id="kaliLinux">
+            <p>Kali Linux</p>
+            <iframe
+              width="320"
+              height="170"
+              src="https://www.youtube.com/embed/lZAoFs75_cs"
+              title="YouTube video player"
+              frameborder="0"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+              allowfullscreen
+              style="margin: 15px 0px 25px 0px"
+            ></iframe>
+          </div>
+
+          <div class="hidden" id="computerNetworking">
+            <p>Computer Networking</p>
+            <iframe
+              width="320"
+              height="170"
+              src="https://www.youtube.com/embed/qiQR5rTSshw"
+              title="YouTube video player"
+              frameborder="0"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+              allowfullscreen
+              style="margin: 15px 0px 25px 0px"
+            ></iframe>
+          </div>
+
+          <div class="hidden" id="sqlInjection">
+            <p>SQL Injection</p>
+            <iframe
+              width="320"
+              height="170"
+              src="https://www.youtube.com/embed/2nXOxLpeu80"
+              title="YouTube video player"
+              frameborder="0"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+              allowfullscreen
+              style="margin: 15px 0px 25px 0px"
+            ></iframe>
+          </div>
+        </div>
+        <div class="youtubeVideos">
+          <p>Cyber Security</p>
+          <iframe
+            width="320"
+            height="170"
+            src="https://www.youtube.com/embed/3Kq1MIfTWCE"
+            title="YouTube video player"
+            frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+            allowfullscreen
+          ></iframe>
+          <iframe
+            width="320"
+            height="170"
+            src="https://www.youtube.com/embed/lZAoFs75_cs"
+            title="YouTube video player"
+            frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+            allowfullscreen
+          ></iframe>
+          <iframe
+            width="320"
+            height="170"
+            src="https://www.youtube.com/embed/qiQR5rTSshw"
+            title="YouTube video player"
+            frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+            allowfullscreen
+          ></iframe>
+
+          <iframe
+            width="320"
+            height="170"
+            src="https://www.youtube.com/embed/2nXOxLpeu80"
+            title="YouTube video player"
+            frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+            allowfullscreen
+          ></iframe>
+
+          <iframe
+            width="320"
+            height="170"
+            src="https://www.youtube.com/embed/X4eRbHgRawI"
+            title="YouTube video player"
+            frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+            allowfullscreen
+          ></iframe>
+
+          <iframe
+            width="320"
+            height="170"
+            src="https://www.youtube.com/embed/U_EhnbpWhUQ"
+            title="YouTube video player"
+            frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+            allowfullscreen
+          ></iframe>
+
+          <iframe
+            width="320"
+            height="170"
+            src="https://www.youtube.com/embed/qFiAJ1sgYNU"
+            title="YouTube video player"
+            frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+            allowfullscreen
+          ></iframe>
+        </div>
+      </div>
+
+      <!-- DBMS -->
+      <div class="main hidden" id="video8">
+        <div class="subtopicVideo">
+          <div id="sql">
+            <p>SQL</p>
+            <iframe
+              width="320"
+              height="170"
+              src="https://www.youtube.com/embed/HXV3zeQKqGY"
+              title="YouTube video player"
+              frameborder="0"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+              allowfullscreen
+              style="margin: 15px 0px 25px 0px"
+            ></iframe>
+          </div>
+
+          <div class="hidden" id="databaseSystems">
+            <p>DataBase Sytems</p>
+            <iframe
+              width="320"
+              height="170"
+              src="https://www.youtube.com/embed/4cWkVbC2bNE"
+              title="YouTube video player"
+              frameborder="0"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+              allowfullscreen
+              style="margin: 15px 0px 25px 0px"
+            ></iframe>
+          </div>
+
+          <div class="hidden" id="mysql">
+            <p>MySQL</p>
+            <iframe
+              width="320"
+              height="170"
+              src="https://www.youtube.com/embed/7S_tz1z_5bA"
+              title="YouTube video player"
+              frameborder="0"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+              allowfullscreen
+              style="margin: 15px 0px 25px 0px"
+            ></iframe>
+          </div>
+
+          <div class="hidden" id="postgreSql">
+            <p>Postgre SQL</p>
+            <iframe
+              width="320"
+              height="170"
+              src="https://www.youtube.com/embed/qw--VYLpxG4"
+              title="YouTube video player"
+              frameborder="0"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+              allowfullscreen
+              style="margin: 15px 0px 25px 0px"
+            ></iframe>
+          </div>
+          <div class="hidden" id="nosql">
+            <p>NoSQL</p>
+            <iframe
+              width="320"
+              height="170"
+              src="https://www.youtube.com/embed/uD3p_rZPBUQ"
+              title="YouTube video player"
+              frameborder="0"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+              allowfullscreen
+              style="margin: 15px 0px 25px 0px"
+            ></iframe>
+          </div>
+        </div>
+        <div class="youtubeVideos">
+          <p>DataBase Management System</p>
+          <iframe
+            width="320"
+            height="170"
+            src="https://www.youtube.com/embed/HXV3zeQKqGY"
+            title="YouTube video player"
+            frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+            allowfullscreen
+          ></iframe>
+          <iframe
+            width="320"
+            height="170"
+            src="https://www.youtube.com/embed/4cWkVbC2bNE"
+            title="YouTube video player"
+            frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+            allowfullscreen
+          ></iframe>
+          <iframe
+            width="320"
+            height="170"
+            src="https://www.youtube.com/embed/7S_tz1z_5bA"
+            title="YouTube video player"
+            frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+            allowfullscreen
+          ></iframe>
+
+          <iframe
+            width="320"
+            height="170"
+            src="https://www.youtube.com/embed/qw--VYLpxG4"
+            title="YouTube video player"
+            frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+            allowfullscreen
+          ></iframe>
+
+          <iframe
+            width="320"
+            height="170"
+            src="https://www.youtube.com/embed/uD3p_rZPBUQ"
+            title="YouTube video player"
+            frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+            allowfullscreen
+          ></iframe>
+
+          <iframe
+            width="320"
+            height="170"
+            src="https://www.youtube.com/embed/4yqu8YF29cU"
+            title="YouTube video player"
+            frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+            allowfullscreen
+          ></iframe>
+
+          <iframe
+            width="320"
+            height="170"
+            src="https://www.youtube.com/embed/1o0c-zD3iFU"
+            title="YouTube video player"
+            frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+            allowfullscreen
+          ></iframe>
+        </div>
+      </div>
+
+      <!-- Data Science -->
+      <div class="main hidden" id="video9">
+        <div class="subtopicVideo">
+          <div id="statistics">
+            <p>Statistics</p>
+            <iframe
+              width="320"
+              height="170"
+              src="https://www.youtube.com/embed/xxpc-HPKN28"
+              title="YouTube video player"
+              frameborder="0"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+              allowfullscreen
+              style="margin: 15px 0px 25px 0px"
+            ></iframe>
+          </div>
+
+          <div class="hidden" id="python">
+            <p>Python</p>
+            <iframe
+              width="320"
+              height="170"
+              src="https://www.youtube.com/embed/rfscVS0vtbw"
+              title="YouTube video player"
+              frameborder="0"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+              allowfullscreen
+              style="margin: 15px 0px 25px 0px"
+            ></iframe>
+          </div>
+
+          <div class="hidden" id="numpy">
+            <p>NumPy</p>
+            <iframe
+              width="320"
+              height="170"
+              src="https://www.youtube.com/embed/QUT1VHiLmmI"
+              title="YouTube video player"
+              frameborder="0"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+              allowfullscreen
+              style="margin: 15px 0px 25px 0px"
+            ></iframe>
+          </div>
+
+          <div class="hidden" id="pandas">
+            <p>Pandas</p>
+            <iframe
+              width="320"
+              height="170"
+              src="https://www.youtube.com/embed/GPVsHOlRBBI"
+              title="YouTube video player"
+              frameborder="0"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+              allowfullscreen
+              style="margin: 15px 0px 25px 0px"
+            ></iframe>
+          </div>
+          <div class="hidden" id="dataVisualization">
+            <p>Data Visualization</p>
+            <iframe
+              width="320"
+              height="170"
+              src="https://www.youtube.com/embed/_YWwU-gJI5U"
+              title="YouTube video player"
+              frameborder="0"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+              allowfullscreen
+              style="margin: 15px 0px 25px 0px"
+            ></iframe>
+          </div>
+        </div>
+        <div class="youtubeVideos">
+          <p>Data Science</p>
+          <iframe
+            width="320"
+            height="170"
+            src="https://www.youtube.com/embed/xxpc-HPKN28"
+            title="YouTube video player"
+            frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+            allowfullscreen
+          ></iframe>
+          <iframe
+            width="320"
+            height="170"
+            src="https://www.youtube.com/embed/rfscVS0vtbw"
+            title="YouTube video player"
+            frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+            allowfullscreen
+          ></iframe>
+          <iframe
+            width="320"
+            height="170"
+            src="https://www.youtube.com/embed/HGOBQPFzWKo"
+            title="YouTube video player"
+            frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+            allowfullscreen
+          ></iframe>
+
+          <iframe
+            width="320"
+            height="170"
+            src="https://www.youtube.com/embed/QUT1VHiLmmI"
+            title="YouTube video player"
+            frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+            allowfullscreen
+          ></iframe>
+
+          <iframe
+            width="320"
+            height="170"
+            src="https://www.youtube.com/embed/GPVsHOlRBBI"
+            title="YouTube video player"
+            frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+            allowfullscreen
+          ></iframe>
+
+          <iframe
+            width="320"
+            height="170"
+            src="https://www.youtube.com/embed/bybjFBOBJlg"
+            title="YouTube video player"
+            frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+            allowfullscreen
+          ></iframe>
+
+          <iframe
+            width="320"
+            height="170"
+            src="https://www.youtube.com/embed/1gQ6uG5Ujiw"
+            title="YouTube video player"
+            frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+            allowfullscreen
+          ></iframe>
+          <iframe
+            width="320"
+            height="170"
+            src="https://www.youtube.com/embed/_YWwU-gJI5U"
+            title="YouTube video player"
+            frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+            allowfullscreen
+          ></iframe>
+        </div>
+      </div>
+
+      <!-- Machine Learning -->
+      <!-- scikit-learn, tensor flow, xgboost, keras pyspark -->
+      <div class="main hidden" id="video10">
+        <div class="subtopicVideo">
+          <div id="scikitLearn">
+            <p>Scikit-learn</p>
+            <iframe
+              width="320"
+              height="170"
+              src="https://www.youtube.com/embed/pqNCD_5r0IU"
+              title="YouTube video player"
+              frameborder="0"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+              allowfullscreen
+              style="margin: 15px 0px 25px 0px"
+            ></iframe>
+          </div>
+
+          <div class="hidden" id="tensorFlow">
+            <p>Tensor Flow</p>
+            <iframe
+              width="320"
+              height="170"
+              src="https://www.youtube.com/embed/tPYj3fFJGjk"
+              title="YouTube video player"
+              frameborder="0"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+              allowfullscreen
+              style="margin: 15px 0px 25px 0px"
+            ></iframe>
+          </div>
+
+          <div class="hidden" id="xgboost">
+            <p>XGBoost</p>
+            <iframe
+              width="320"
+              height="170"
+              src="https://www.youtube.com/embed/gUJVmds9DsI"
+              title="YouTube video player"
+              frameborder="0"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+              allowfullscreen
+              style="margin: 15px 0px 25px 0px"
+            ></iframe>
+          </div>
+
+          <div class="hidden" id="keras">
+            <p>Keras</p>
+            <iframe
+              width="320"
+              height="170"
+              src="https://www.youtube.com/embed/qFJeN9V1ZsI"
+              title="YouTube video player"
+              frameborder="0"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+              allowfullscreen
+              style="margin: 15px 0px 25px 0px"
+            ></iframe>
+          </div>
+          <div class="hidden" id="pyspark">
+            <p>PySpark</p>
+            <iframe
+              width="320"
+              height="170"
+              src="https://www.youtube.com/embed/639JCua-bQU"
+              title="YouTube video player"
+              frameborder="0"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+              allowfullscreen
+              style="margin: 15px 0px 25px 0px"
+            ></iframe>
+          </div>
+        </div>
+        <div class="youtubeVideos">
+          <p>Machine Learning</p>
+          <iframe
+            width="320"
+            height="170"
+            src="https://www.youtube.com/embed/pqNCD_5r0IU"
+            title="YouTube video player"
+            frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+            allowfullscreen
+          ></iframe>
+          <iframe
+            width="320"
+            height="170"
+            src="https://www.youtube.com/embed/tPYj3fFJGjk"
+            title="YouTube video player"
+            frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+            allowfullscreen
+          ></iframe>
+          <iframe
+            width="320"
+            height="170"
+            src="https://www.youtube.com/embed/gUJVmds9DsI"
+            title="YouTube video player"
+            frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+            allowfullscreen
+          ></iframe>
+
+          <iframe
+            width="320"
+            height="170"
+            src="https://www.youtube.com/embed/qFJeN9V1ZsI"
+            title="YouTube video player"
+            frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+            allowfullscreen
+          ></iframe>
+
+          <iframe
+            width="320"
+            height="170"
+            src="https://www.youtube.com/embed/639JCua-bQU"
+            title="YouTube video player"
+            frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+            allowfullscreen
+          ></iframe>
+
+          <iframe
+            width="320"
+            height="170"
+            src="https://www.youtube.com/embed/0oyCUWLL_fU"
+            title="YouTube video player"
+            frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+            allowfullscreen
+          ></iframe>
+
+          <iframe
+            width="320"
+            height="170"
+            src="https://www.youtube.com/embed/oXlwWbU8l2o"
+            title="YouTube video player"
+            frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+            allowfullscreen
+          ></iframe>
+          <iframe
+            width="320"
+            height="170"
+            src="https://www.youtube.com/embed/CNuI8OWsppg"
+            title="YouTube video player"
+            frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+            allowfullscreen
+          ></iframe>
+          <iframe
+            width="320"
+            height="170"
+            src="https://www.youtube.com/embed/GJJc1t0rtSU"
+            title="YouTube video player"
+            frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+            allowfullscreen
+          ></iframe>
+        </div>
+      </div>
+    </div>
+    <br />
+    <hr style="margin-left: 20px; margin-right: 20px" />
+    <p
+      style="
+        margin-left: 20px;
+        margin-right: 20px;
+        margin-top: 5px;
+        margin-bottom: 20px;
+      "
+    >
+      © 2021 Intellí Learning Inc. All rights reserved.
+    </p>
+    <script src="videos.js"></script>
+  </body>
+</html>
