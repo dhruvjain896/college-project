@@ -8,3 +8,6 @@ page, videos, tutors, tests, about us. The
 website was built with HTML, CSS, and
 JavaScript. This project is not build for 
 commercial use.
+
+Try it out
+https://intellilearning.netlify.app/
